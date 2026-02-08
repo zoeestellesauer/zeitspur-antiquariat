@@ -1,0 +1,133 @@
+body {
+	font-family: 'Segoe UI', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #fffcef;
+	color: #471603;
+	line-height: 1.45;
+}
+
+a {
+    color: #471603;
+    
+}
+
+h3 {
+    background-color: #fef7d3;
+    border-radius: 16px;
+    padding: 10px 20px;
+}
+
+h2 {
+    color: #471603bb;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 16px;
+}
+
+main {
+	padding: 2rem;
+	max-width: 1000px;
+	margin: auto;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+
+header {
+    height: 50vh;
+    background-image: url('img/Header.zeitspur.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+	background-color: #471603;
+	color: #fffcef;
+	padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.header img {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin-top: 3rem;
+}
+
+
+nav {
+    background-color: transparent;
+    padding: 15px 0;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+        margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #471603;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #fffcef;
+    border-radius: 25px; 
+    display: inline-block
+}
+
+
+.neben {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3rem;
+    align-items: center;
+    background-color: #fcf6d7;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.neben img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+
+.article-container {
+	display: flex;
+	gap: 40px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 2em;
+}
+
+.article {
+	width: 400px;
+	text-align: center;
+}
+
+.article img {
+	width: 100%;
+	height: auto;
+}
+
+.article h2 {
+	margin-top: 0.5em;
+}
